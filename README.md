@@ -26,3 +26,17 @@ This is my University LMS clone.<br>
 10.Multer and Cloudinary For photo upload<br>
 
  
+
+
+.env 
+
+NODE_ENV=development
+PORT=5000
+MONGO_URI="mongodb+srv://siddabdulwork:vEvmWlz3UTxQccBv@cluster0.tfpgxed.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/test"
+SECRET_KEY="1234567GHS"
+CLOUDINARY_CLOUD_NAME=de1s9p7qr
+CLOUDINARY_API_KEY=229858318947288
+CLOUDINARY_API_SECRET=m6yHdddRgze-OgPPSPpx2pReIjA
+#CLOUDINARY_CLOUD_NAME=
+#CLOUDINARY_API_KEY=
+#CLOUDINARY_API_SECRET=
