@@ -216,11 +216,11 @@ const TeacherDashboard = () => {
                 </div>
 
                 <Divider />
-                {filteredCourse?.length > 0 &&
+                {/* {filteredCourse?.length > 0 &&
                   filteredCourse?.slice(start, end).map((val) => {
                     return (
                       <CourseCard
-                        key={Math.random(2) * 10}
+                        key={Math.random(2) * 1000}
                         title={val.courseDescription}
                         name={val.courseName}
                         id={val._id}
@@ -229,7 +229,7 @@ const TeacherDashboard = () => {
                         handlePublishClick={(id) => val.isPublished ==1 ?null:handlePublishClick(id)}
                       />
                     );
-                  })}
+                  })} */}
               </Container>
 
               <Container className="mt-5">
@@ -237,7 +237,7 @@ const TeacherDashboard = () => {
                   <Typography variant="h6">Courses</Typography>
                 </Paper>
                 <Divider />
-
+{/* 
                 {filteredCourse?.length > 0 &&
                   filteredCourse?.slice(0, pageValue).map((val) => {
                     return (
@@ -251,7 +251,7 @@ const TeacherDashboard = () => {
                         handlePublishClick={(id) => val.isPublished ==1 ?null:handlePublishClick(id)}
                         />
                     );
-                  })}
+                  })} */}
 
                 <div className=" d-flex align-items-center my-2">
                   <Typography className="mr-3" variant="subtitle1">

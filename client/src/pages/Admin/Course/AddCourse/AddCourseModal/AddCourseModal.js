@@ -27,7 +27,7 @@ const AddCourseModal = () => {
 
 };
 
-  const dispatch=useDispatch()
+const dispatch=useDispatch()
 
   useEffect(() => {
     setImgLabel(courseThumbnail.name);

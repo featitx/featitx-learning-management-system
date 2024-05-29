@@ -68,9 +68,15 @@ const QuizMain = () => {
     setCorrectAnswer('');
     setSelectedAnswer('');
     const wrongBtn = document.querySelector('button.bg-danger');
-    wrongBtn?.classList.remove('bg-danger');
+    if (wrongBtn) {
+      wrongBtn.classList.remove('bg-danger');
+    }
+    
     const rightBtn = document.querySelector('button.bg-success');
-    rightBtn?.classList.remove('bg-success');
+    if (rightBtn) {
+      rightBtn.classList.remove('bg-success');
+    }
+    
     setQuestionIndex(questionIndex + 1);
   }
 
@@ -91,9 +97,15 @@ const QuizMain = () => {
     setQuestionIndex(0);
     setMarks(0);
     const wrongBtn = document.querySelector('button.bg-danger');
-    wrongBtn?.classList.remove('bg-danger');
+    if (wrongBtn) {
+      wrongBtn.classList.remove('bg-danger');
+    }
+    
     const rightBtn = document.querySelector('button.bg-success');
-    rightBtn?.classList.remove('bg-success');
+    if (rightBtn) {
+      rightBtn.classList.remove('bg-success');
+    }
+    
   }
 
   return (
